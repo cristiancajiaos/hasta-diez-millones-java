@@ -1,20 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package hasta.diez.millones;
 
-/**
- *
- * @author crist
- */
 public class HastaDiezMillones {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        long cuenta = 1;
+        long numeroBase = 2;
+
+        while (cuenta < 10000000) {
+            cuenta *= numeroBase;
+            System.out.println("cuenta: " + cuenta);
+        }
     }
-    
+
 }
